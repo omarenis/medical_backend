@@ -25,14 +25,12 @@ class Consultation(Model):
 
 
 class PatientSerializer(ModelSerializer):
-
     class Meta:
         model = Patient
         fields = '__all__'
 
 
 class ConsultationSerializer(ModelSerializer):
-
     class Meta:
-        model =Consultation
+        model = Consultation
         fields = '__all__'
